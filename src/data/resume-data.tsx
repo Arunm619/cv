@@ -140,7 +140,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Fire Tablets - Settings",
-      techStack: ["Android", "AOSP", "FIREOS", "Java"],
+      techStack: ["Android", "AOSP", "FireOS", "Java"],
       description:
         "Customize your device preferences, manage accounts, and control various features for an optimized user experience.",
       logo: JarockiMeLogo,
@@ -152,7 +152,7 @@ export const RESUME_DATA = {
 
     {
       title: "Fire Tablet - Storage Manager",
-      techStack: ["Android", "AOSP", "FIREOS", "Java"],
+      techStack: ["Android", "AOSP", "FireOS", "Java"],
       description:
         "Efficiently organize, optimize, and manage storage space on your device for enhanced performance and usability.",
       logo: JarockiMeLogo,
