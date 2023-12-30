@@ -15,7 +15,7 @@ import {
   NSNLogo,
   ParabolLogo,
   TastyCloudLogo,
-  YearProgressLogo,
+  YearProgressLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer focused on building products with extra attention to detail",
   summary:
-    "As a mobile engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with Kotlin, Android SDK, coroutines, jetpack compose. I have over 5 years of experience in working with companies like Amazon, Meesho and Freshworks.",
+    "As a mobile engineer, I have successfully taken multiple products from 0 to 1. Currently, I work mostly with Kotlin, Android, Coroutines, Jetpack compose. I have over 4 years of experience in working with companies like Amazon, Meesho and Freshworks.",
   avatarUrl: "https://avatars.githubusercontent.com/u/20639352?v=4",
   personalWebsiteUrl: "https://arunm619.github.io/",
   contact: {
@@ -37,27 +37,27 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/Arunm619",
-        icon: GitHubIcon,
+        icon: GitHubIcon
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/arunm619/",
-        icon: LinkedInIcon,
+        icon: LinkedInIcon
       },
       {
         name: "X",
         url: "https://x.com/Arunm_619",
-        icon: XIcon,
-      },
-    ],
+        icon: XIcon
+      }
+    ]
   },
   education: [
     {
       school: "Anna University, Chennai",
       degree: "Bachelor's Degree in Computer Science and Engineering.",
       start: "2015",
-      end: "2019",
-    },
+      end: "2019"
+    }
   ],
   work: [
     {
@@ -66,47 +66,41 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Software development engineer - 2",
       logo: ParabolLogo,
-      start: "2021",
+      start: "Nov 2021",
       end: "current",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      description: "Managed transaction flows in the Meesho app, including developing Multi-Supplier Cart, custom animation buttons, streamlined Buy Now Flow, and integrated Juspay bank offers module."
     },
     {
       company: "Amazon",
       link: "https://amazon.com",
       badges: ["Remote"],
-      title: "Software development engineer - 1",
+      title: "Software Development Engineer - 1",
       logo: ClevertechLogo,
-      start: "2019",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      start: "Jan 2020",
+      end: "Oct 2021",
+      description: "Contributed to FireOS applications for millions of Fire tablet devices, including creating auto WiFi reconnect, and upgrading Storage Manager/WiFi Settings from Android 9 to 11."
     },
     {
       company: "Freshworks",
       link: "https://freshworks.com/",
       badges: [],
-      title: "Software development engineer - 1",
+      title: "Software Development Engineer",
       logo: JojoMobileLogo,
-      start: "2019",
-      end: "2019",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      start: "Jun 2019",
+      end: "Dec 2019",
+      description: "Elevated Freshcaller app post-internship, introducing features like call notes, a country code picker, and migrating to Work Manager for efficiency."
     },
     {
       company: "Freshworks",
       link: "https://www.freshworks.com",
       badges: [],
-      title: "GTE",
+      title: "Software Development Engineer Intern",
       logo: NSNLogo,
-      start: "2019",
-      end: "2019",
-      description: "Having understood the functionalities and codebase of the freshcaller app during my internship, I was able to work even better as a FTE.\n" +
-        "\n" +
-        "Learned fundamentals of Kotlin, Git & Android Architectural components.\n" +
-        "Fixed bugs in freshcaller android app.\n" +
-        "Built a single sign on feature that enables seamless sign in experience for the users.",
-    },
+      start: "Jan 2019",
+      end: "May 2019",
+      description:
+        "Improved Freshcaller app during internship, fixed bugs, and added single sign-on feature using Kotlin and Git."
+    }
   ],
   skills: [
     "Android",
@@ -114,7 +108,7 @@ export const RESUME_DATA = {
     "Java",
     "Coroutines",
     "RxJava",
-    "Jetpack Compose",
+    "Jetpack Compose"
   ],
   projects: [
     {
@@ -124,156 +118,71 @@ export const RESUME_DATA = {
         "Android",
         "Kotlin",
         "Jetpack Compose",
+        "Github Actions"
       ],
       description: "A wear os app to measure the decibels in the surroundings",
       logo: ConsultlyLogo,
       link: {
-        label: "App Link",
-        href: "https://play.google.com/store/apps/details?id=dev.arunm619.soundmeter",
-      },
+        label: "Sound Meter App",
+        href: "https://play.google.com/store/apps/details?id=dev.arunm619.soundmeter"
+      }
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Meesho",
+      techStack: ["Android", "Kotlin", "Java", "RxJava", "MVVM", "Retrofit", "Room"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Empowering individuals to start online businesses, resell products on social media, and earn commissions.\n",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        label: "Meesho App",
+        href: "https://play.google.com/store/apps/details?id=com.meesho.supply"
+      }
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Fire Tablets - Settings",
+      techStack: ["Android", "AOSP", "FIREOS", "Java"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Customize your device preferences, manage accounts, and control various features for an optimized user experience.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
+        label: "Amazon Fire Tablet",
+        href: "https://www.amazon.com/Amazon-Fire-Tablet-Family/b?ie=UTF8&node=6669703011"
+      }
+    },
+
+    {
+      title: "Fire Tablet - Storage Manager",
+      techStack: ["Android", "AOSP", "FIREOS", "Java"],
+      description:
+        "Efficiently organize, optimize, and manage storage space on your device for enhanced performance and usability.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "Amazon Fire Tablet",
+        href: "https://www.amazon.com/Amazon-Fire-Tablet-Family/b?ie=UTF8&node=6669703011"
+      }
+    },
+
+    {
+      title: "Fire Tablet - WiFi Reconnect",
+      techStack: ["Android", "Kotlin", "FIREOS"],
+      description: "Automatically reconnects to WiFi after router password change, ensuring seamless connectivity for enhanced user experience and convenience.\n",
+      logo: JarockiMeLogo,
+      link: {
+        label: "Amazon Fire Tablet",
+        href: "https://www.amazon.com/Amazon-Fire-Tablet-Family/b?ie=UTF8&node=6669703011"
+      }
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Freshcaller",
+      techStack: ["Kotlin", "Android", "Go", "GoMobile", "Twilio"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Cloud-based call center software offering telephony services, call management, and seamless customer communication for enhanced support and engagement.\n",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
+        label: "freshcaller app",
+        href: "https://play.google.com/store/apps/details?id=com.freshworks.freshcaller"
+      }
     },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
-  ],
+  ]
 } as const;
