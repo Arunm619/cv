@@ -64,10 +64,20 @@ export const RESUME_DATA = {
       company: "Meesho",
       link: "https://meesho.com",
       badges: ["Remote"],
+      title: "Software development engineer - 3",
+      logo: ParabolLogo,
+      start: "Jan 2024",
+      end: "current",
+      description: "Managed transaction flows in the Meesho app, including developing Multi-Supplier Cart, custom animation buttons, streamlined Buy Now Flow, and integrated Juspay bank offers module."
+    },
+    {
+      company: "Meesho",
+      link: "https://meesho.com",
+      badges: ["Remote"],
       title: "Software development engineer - 2",
       logo: ParabolLogo,
       start: "Nov 2021",
-      end: "current",
+      end: "Dec 2023",
       description: "Managed transaction flows in the Meesho app, including developing Multi-Supplier Cart, custom animation buttons, streamlined Buy Now Flow, and integrated Juspay bank offers module."
     },
     {
